@@ -8,6 +8,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     menu_items={}
 )
+
 #大标题
 st.title("AI Friend")
 if "messages" not in st.session_state:
